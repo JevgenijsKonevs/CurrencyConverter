@@ -33,7 +33,7 @@ inputRub.addEventListener('input', () => {
         inputUsd.value = inputRub.value / data.usd;
     })
     .then(() => console.log(5000))
-    .catch(() => inputUsd.value = "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº")
+    .catch(() => inputUsd.value = " ")
 
 
 });
